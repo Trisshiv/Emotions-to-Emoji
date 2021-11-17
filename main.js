@@ -39,7 +39,7 @@ function check() {
     classifier.classify(img, gotResult);
 }
 
-function gotResult(arror, result) {
+function gotResult(error, result) {
     if (error) {
         console.error(error);
     }
